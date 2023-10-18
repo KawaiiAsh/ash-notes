@@ -3,9 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Ash Blog",
-  description: "个人博客，学习笔记",
+  description: "Ash的博客",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    
+    logo: 'logo.png',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -24,5 +27,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
+  },
+
+  markdown: {
+    math: true
   }
 })

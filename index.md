@@ -1,11 +1,15 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+layoutClass: 'home-layout'
 
 hero:
   name: "Ash Blog"
-  text: "个人博客，学习笔记"
-  tagline: My great project tagline
+  text: "Hello World!"
+  tagline: It's not a bug – it's an undocumented feature.
+  image:
+    src: /logo.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +19,36 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📚
+    title: MIT 18.06 线性代数
+    details: 用于个人学习 <br>转载至 ApacheCN的线性代数笔记
+    link: /#
+    linkText: 线性代数
+  - icon: 😊
+    title: 个人博客
+    details: 随便写写个人生活<br> 心情、记录、计划、想法
+    link: /#
+    linkText: 飞行随笔
+  - icon: 💡
+    title: 编程笔记
+    details: 随手记录一些小点<br>例如在学习代码的过程中遇到的突发奇想
+    link: /#
+    linkText: 随便看看
 ---
 
+<style>
+home-layout .image-src:hover {
+  transform: translate(-50%, -50%) rotate(666turn);
+  transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
+}
+
+home-layout .details small {
+  opacity: 0.8;
+}
+
+home-layout .item:last-child .details {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+</style>
