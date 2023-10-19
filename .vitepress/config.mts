@@ -5,7 +5,6 @@ import { sidebar } from './configs/sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
-  base: '/ash-notes/',
   title: "Ash Blog",
   description: "Ash的博客",
   appearance: 'dark',
