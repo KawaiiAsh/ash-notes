@@ -22,7 +22,7 @@ features:
   - icon: 📚
     title: MIT 18.06 线性代数
     details: 用于个人学习 <br>转载至 ApacheCN的线性代数笔记
-    link: /#
+    link: /docs/MIT18.06/chapter01.html
     linkText: 线性代数
   - icon: 😊
     title: 个人博客

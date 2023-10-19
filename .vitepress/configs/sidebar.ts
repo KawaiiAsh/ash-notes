@@ -4,7 +4,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/docs/MIT18.06/':[
         {
             text: 'MIT18.06 Lecture 1-10',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '第一讲: 方程组的几何解释', link: 'docs/MIT18.06/chapter01' },
               { text: '第二讲: 矩阵消元', link: 'docs/MIT18.06/chapter02' },
