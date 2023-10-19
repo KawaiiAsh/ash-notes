@@ -8,11 +8,12 @@ export default defineConfig({
   base: '/ash-notes/',
   title: "Ash Blog",
   description: "Ash的博客",
+  appearance: 'dark',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     
     logo: 'logo.png',
-
     nav,
     sidebar,
 
