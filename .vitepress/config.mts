@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import {nav} from './configs/nav'
+import { sidebar } from './configs/sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -13,6 +14,7 @@ export default defineConfig({
     logo: 'logo.png',
 
     nav,
+    sidebar,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/KawaiiAsh/blog' }
