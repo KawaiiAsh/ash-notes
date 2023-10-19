@@ -12,11 +12,11 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Github主页
+      link: https://github.com/KawaiiAsh
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 随便看看
+      link: /#
 
 features:
   - icon: 📚
@@ -31,7 +31,7 @@ features:
     linkText: 飞行随笔
   - icon: 💡
     title: 编程笔记
-    details: 随手记录一些小点<br>例如在学习代码的过程中遇到的突发奇想
+    details: 随手记录一些东西<br>例如在 Coding 的过程中遇到的突发奇想
     link: /#
     linkText: 随便看看
 ---
