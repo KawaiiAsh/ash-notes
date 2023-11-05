@@ -8,10 +8,19 @@ export default defineConfig({
   title: "Ash Blog",
   description: "Ash的博客",
   appearance: 'dark',
-  lastUpdated: true,
+  lang: 'zh-CN',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
     logo: 'logo.png',
     nav,
     sidebar,
@@ -30,3 +39,4 @@ export default defineConfig({
     math: true
   }
 })
+
