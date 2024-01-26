@@ -3,13 +3,20 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Config['sidebar'] = {
 
     'docs/musings/':[
-      {
-        text: '2023',
-        collapsed: false,
-        items: [
-          { text: '2023年的生活感悟', link: 'docs/musings/2023年的生活感悟.md' },
-        ]
-    },
+        {
+            text: '2023',
+            collapsed: false,
+            items: [
+              { text: '2023年的生活感悟', link: 'docs/musings/2023年的生活感悟.md' },
+                ]
+        },
+        {
+            text: '2024',
+            collapsed: false,
+            items: [
+                { text: '安娜堡的学习日常', link: 'docs/musings/安娜堡的学习日常.md' },
+            ]
+        },
     ],
 
     '/docs/MIT18.06/':[
