@@ -15,6 +15,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             collapsed: false,
             items: [
                 { text: '安娜堡的学习日常', link: 'docs/musings/安娜堡的学习日常.md' },
+                { text: '分析Orthoimagery Manhattan', link: 'docs/musings/分析Orthoimagery Manhattan.md' },
             ]
         },
     ],
