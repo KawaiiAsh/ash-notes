@@ -92,6 +92,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/docs/deeplearning':[
         { text: '序章', link: 'docs/deeplearning/README' },
         { text: 'C1W1', link: 'docs/deeplearning/c1w1' },
-        { text: 'C1W2', link: 'docs/deeplearning/c1w2' },
+        // { text: 'C1W2', link: 'docs/deeplearning/c1w2' },
     ]
 }

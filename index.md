@@ -8,7 +8,7 @@ hero:
   text: "Hello World!"
   tagline: It's not a bug – it's an undocumented feature.
   image:
-    src: /logo.png
+    src: /logo.jpg
     alt: VitePress
   actions:
     - theme: brand
