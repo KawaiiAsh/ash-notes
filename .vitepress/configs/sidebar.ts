@@ -87,5 +87,11 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
               { text: '第三十五讲: 期末复习', link: 'docs/MIT18.06/chapter35' },
             ]
         }
+    ],
+
+    '/docs/deeplearning':[
+        { text: '序章', link: 'docs/deeplearning/README' },
+        { text: 'C1W1', link: 'docs/deeplearning/c1w1' },
+        { text: 'C1W2', link: 'docs/deeplearning/c1w2' },
     ]
 }
