@@ -25,14 +25,14 @@ features:
     link: /docs/MIT18.06/chapter01.html
     linkText: 线性代数
   - icon: 😊
-    title: 个人博客
+    title: 心情小记
     details: 随便写写个人生活<br> 心情、记录、计划、想法
-    link: /#
+    link: /docs/musings/安娜堡的学习日常.html
     linkText: 飞行随笔
   - icon: 💡
-    title: 编程笔记
-    details: 随手记录一些东西<br>例如在 Coding 的过程中遇到的突发奇想
-    link: /#
+    title: 深度学习
+    details: 随手记录一些东西<br>在 深度学习 的过程中的想法
+    link: /docs/deeplearning/README.html
     linkText: 随便看看
 ---
 

@@ -20,7 +20,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
     ],
 
-    '/docs/MIT18.06/': [
+    'docs/MIT18.06/': [
         {
             text: 'MIT18.06 Lecture 1-10',
             collapsed: false,
@@ -88,4 +88,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ]
         }
     ],
+
+    'docs/deeplearning/':[
+        {
+            text: "随手小记",
+            items: [
+                {text: 'README', link: 'docs/deeplearning/README'},
+                {text: '激活函数的选择', link: 'docs/deeplearning/激活函数的选择'},
+            ]
+        }
+    ]
 }
