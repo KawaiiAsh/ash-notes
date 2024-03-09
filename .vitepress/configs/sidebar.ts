@@ -94,6 +94,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: "随手小记",
             items: [
                 {text: 'README', link: 'docs/deeplearning/README'},
+                {text: '过拟合和欠拟合', link: 'docs/deeplearning/过拟合和欠拟合'},
                 {text: '激活函数的选择', link: 'docs/deeplearning/激活函数的选择'},
             ]
         }
